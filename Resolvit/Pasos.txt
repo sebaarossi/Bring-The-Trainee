@@ -21,6 +21,13 @@ buscando un algoritmo que te entregue todas las "combinaciones" posibles de un a
 Una vez notado esto, con ChatGPT pude encontrarme con una solución que me convencía y luego de acomodarla a mi 
 estructura y de realizar algunas pruebas pude ver que era lo correcto.
 
+Aclaración: Si bien elegí este algoritmo, entiendo que no es el más eficiente ya que involucra
+tener en consideración todo el universo de recorridos posibles (todas las permutaciones).
+Se podría buscar una forma de hacer el programa más eficiente mediante el uso de algun otro algoritmo
+que por ejemplo permita tomar el costo de un recorrido como referencia y si a medida que analizamos 
+otra combinacion superamos este valor, automaticamente lo descartamos como tambien a los recorridos 
+hijos de este.
+
 4- Una vez encontrado el algoritmo, genere la clase Permutator, que al igual que los repositorios, utilizan
 el patron de diseño Singleton. Dentro de esa clase incorporé las funciones que calculan las permutaciones.
 
@@ -31,4 +38,4 @@ función "generateData()" genera un lote de datos que permite ver el funcionamie
 Por otro lado, dejé comentado en el main un seccion que hace al programa interactivo y permite al usuario que 
 que lo ejecuta determinar los planetas que hay en el dominio y los costos de viajar entre cada uno de ellos.
 
-6- Realizar algunas pruebas de control para verificar que el programa este funcionando correctamente.
+7- Realizar algunas pruebas de control para verificar que el programa este funcionando correctamente.
