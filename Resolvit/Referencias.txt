@@ -1,0 +1,11 @@
+
+REFERENCIAS
+
+Singleton: https://www.baeldung.com/java-singleton
+
+Scanner: https://lineadecodigo.com/java/leer-numeros-por-teclado-con-java/
+
+Main: https://jenkov.com/tutorials/java/main-method.html#:~:text=at%20this%20point.-,The%20Java%20Main%20Class,a%20main()%20method%20in.
+
+Permutations: https://chat.openai.com/c/3b9fb046-b9f5-41d0-bb1c-d129dff2b13c
+            

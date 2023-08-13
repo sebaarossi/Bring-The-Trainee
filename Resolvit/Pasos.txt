@@ -1,0 +1,34 @@
+
+Pasos a seguir para resolver el problema
+
+1- Leer detenidamente la consigna y definir un modelo básico para poder determinar que lenguaje utilizar 
+a futuro. (Decidí usar Java)
+
+2- Pensar el problema de manera abstracta para poder realizar un diagrama de clases inicial. En principio
+definí las clases "Planet", "Track" y sus respectivos repositorios.
+
+En este paso utilicé google para refrescar algunas cosas de Java relacionadas principalmente a la sintaxis 
+y la clase main.
+
+3- Una vez definidas las clases y su estructura básica interna, comencé a analizar los requerimientos y 
+cálculos necesarios para poder cumplir con la consigna.
+
+En este punto encontré dificultad ya que no podía encontrar el algoritmo correcto para determinar todos los 
+recorridos posibles. Luego de un tiempo me di cuenta que estaba buscando de manera incorrecta ya que estaba
+buscando un algoritmo que te entregue todas las "combinaciones" posibles de un array pero el termino correcto era
+"permutaciones".
+
+Una vez notado esto, con ChatGPT pude encontrarme con una solución que me convencía y luego de acomodarla a mi 
+estructura y de realizar algunas pruebas pude ver que era lo correcto.
+
+4- Una vez encontrado el algoritmo, genere la clase Permutator, que al igual que los repositorios, utilizan
+el patron de diseño Singleton. Dentro de esa clase incorporé las funciones que calculan las permutaciones.
+
+5- Generé la clase Main con su respectiva función para poder ejecutar el programa.
+
+6- Para el tema de los datos, incorporé 2 soluciones posibles. En primer lugar, una clase DataBatch que con su
+función "generateData()" genera un lote de datos que permite ver el funcionamiento del algoritmo.
+Por otro lado, dejé comentado en el main un seccion que hace al programa interactivo y permite al usuario que 
+que lo ejecuta determinar los planetas que hay en el dominio y los costos de viajar entre cada uno de ellos.
+
+6- Realizar algunas pruebas de control para verificar que el programa este funcionando correctamente.
