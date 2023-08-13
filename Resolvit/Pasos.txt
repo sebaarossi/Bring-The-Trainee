@@ -23,7 +23,7 @@ estructura y de realizar algunas pruebas pude ver que era lo correcto.
 
 Aclaración: Si bien elegí este algoritmo, entiendo que no es el más eficiente ya que involucra
 tener en consideración todo el universo de recorridos posibles (todas las permutaciones).
-Se podría buscar una forma de hacer el programa más eficiente mediante el uso de algun otro algoritmo
+Se podría buscar una forma de hacer el programa más eficiente mediante el uso de algún otro algoritmo
 que por ejemplo permita tomar el costo de un recorrido como referencia y si a medida que analizamos 
 otra combinacion superamos este valor, automaticamente lo descartamos como tambien a los recorridos 
 hijos de este.
@@ -35,7 +35,8 @@ el patron de diseño Singleton. Dentro de esa clase incorporé las funciones que
 
 6- Para el tema de los datos, incorporé 2 soluciones posibles. En primer lugar, una clase DataBatch que con su
 función "generateData()" genera un lote de datos que permite ver el funcionamiento del algoritmo.
-Por otro lado, dejé comentado en el main un seccion que hace al programa interactivo y permite al usuario que 
-que lo ejecuta determinar los planetas que hay en el dominio y los costos de viajar entre cada uno de ellos.
+Podemos usarlo de esta forma, ejecutando el archivo Main.java
+Por otro lado, el archivo InteractiveMain.java hace al programa interactivo y permite al usuario que 
+lo ejecuta determinar los planetas que hay en el dominio y los costos de viajar entre cada uno de ellos.
 
 7- Realizar algunas pruebas de control para verificar que el programa este funcionando correctamente.

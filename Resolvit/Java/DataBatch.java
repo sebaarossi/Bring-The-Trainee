@@ -6,13 +6,13 @@ public class DataBatch {
 
         // Planet creation
 
-        Planet planet1 = new Planet("Mercurio");
+        Planet planet1 = new Planet("Mercury");
         RepoPlanets.getInstance().getPlanets().add(planet1);
         Planet planet2 = new Planet("Venus");
         RepoPlanets.getInstance().getPlanets().add(planet2);
-        Planet planet3 = new Planet("Tierra");
+        Planet planet3 = new Planet("Earth");
         RepoPlanets.getInstance().getPlanets().add(planet3);
-        Planet planet4 = new Planet("Marte");
+        Planet planet4 = new Planet("Mars");
         RepoPlanets.getInstance().getPlanets().add(planet4);
 
         // Trip Prices
