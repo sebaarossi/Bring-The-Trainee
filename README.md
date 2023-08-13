@@ -1,2 +1,3 @@
 # Bring-The-Trainee
-Ejercicio proceso de selección
+Ejercicio proceso de selección Sebastian Nahuel Rossi.
+
