@@ -17,11 +17,11 @@ public class Main {
 
         ArrayList<Planet> arr = repoPlanets.getPlanets();
 
-        System.out.println(arr.size());
+        // System.out.println(arr.size());
 
         repoTracks.setTracks(permutator.generatePermutations(arr));
 
-        System.out.println(repoTracks.getTracks().size());
+        // System.out.println(repoTracks.getTracks().size());
 
         Track minTrack = repoTracks.getTracks().get(0);
 
